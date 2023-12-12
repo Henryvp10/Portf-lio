@@ -1,0 +1,95 @@
+body{
+    background-color: #ff9238;
+
+}
+.titulo{
+  font-family: 'Franklin Gothic Medium';
+}
+.title{
+  font-family:'the smile';
+}
+.menu {
+  display: inline-block;
+  
+}
+#home{
+  border: solid 5px;
+  border-color: rgb(248, 255, 240);
+  
+}
+#sobremim{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#portfolio{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#paragrafo{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#habilidade{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#depoimento{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#contato{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#blog{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#certificacoes{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#projeto{
+  border: solid 5px;
+  border-color: aliceblue;
+  
+}
+#barraNav{
+  position: fixed;
+  position: -webkit-sticky;
+  background-color: #ff9238;
+  list-style-type: none; /*remove marcadores da lista*/
+  margin: 0;/*remove espaço ao redor*/
+  overflow: hidden;/*esconde o conteúdo que for maior  que o tamanho da borda*/
+  height: 40px;
+  width: 100%;
+  z-index: 1000;
+}
+
+li a{
+  color: white;
+  display: inline-block;
+  /* divide a tag em blocos*/
+  background-color: #686868;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;/*retira o traçado do link*/
+  width: 235px;
+
+}
+li a:hover{/*altera a cor do link ao passar o mouse*/
+  background: #333;
+  color:white;
+  text-decoration: none;
+}
+.paragrafo{
+  color: aliceblue;
+}
